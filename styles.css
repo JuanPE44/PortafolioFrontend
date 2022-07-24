@@ -16,7 +16,7 @@ body {
 .header {
     width: 100%;
     height: 6vh;
-    background: #353535;
+    background: #202020;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,3 +188,16 @@ button {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
+
+.experiencia-info {
+    display: flex;
+}
+
+.experiencia-img {
+    width: 5rem;
+    height: 5rem;
+    background-image: url(https://png.pngtree.com/template/20191014/ourlarge/pngtree-real-estate-business-logo-template-building-property-development-and-construction-logo-image_317796.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
