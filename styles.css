@@ -255,3 +255,108 @@ button {
     color: #747474d7
 }
 
+.section-habilidades {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    border: .1rem solid #DDD;
+}
+
+.habilidades-titulo {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contenedor-circulos {
+    width: 100%;
+    margin: 5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.circulo {
+    max-width: 150px;
+    margin: 0;
+}
+
+.circulo svg {
+    width: 150px;
+    height: 150px;
+    transform: rotate(270deg);
+}
+
+.circulo svg circle {
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke: #353535;
+    stroke-width: 4;
+    transform: translate(5px,5px);
+}
+
+.circulo:nth-child(1) svg circle:nth-child(2) {
+    stroke: #f54f4f;
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * 80) / 100);
+}
+
+.circulo:nth-child(2) svg circle:nth-child(2) {
+    stroke: #4fb3f5;
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+}
+
+.circulo:nth-child(3) svg circle:nth-child(2) {
+    stroke: #f5dc4f;
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * 70) / 100);
+}
+
+.circulo h3 {
+    position: absolute;
+    left: 0;
+}
+
+.section-proyectos {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    border: .1rem solid #DDD;
+}
+
+.proyectos-titulo {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.proyecto {
+    margin-left: 2rem;
+    margin-top: 3rem;
+    padding-right: 2rem;
+}
+
+.proyecto h3 {
+    font-size: 2rem;
+    color: #6371f1;
+}
+
+.proyecto p {
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: #818181;
+}
+
+.footer {
+    width: 100%;
+    height: 7vh;
+    background: #575757;
+    margin-top: 5rem;
+}
+
+
+
