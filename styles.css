@@ -193,11 +193,65 @@ button {
     display: flex;
 }
 
-.experiencia-img {
+.experiencia-img img {
     width: 5rem;
     height: 5rem;
-    background-image: url(https://png.pngtree.com/template/20191014/ourlarge/pngtree-real-estate-business-logo-template-building-property-development-and-construction-logo-image_317796.jpg);
-    background-position: center;
-    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+    padding: .5rem;
+}
+
+.experiencia-texto h2 {
+    font-size: 2rem;
+}
+
+.experiencia-texto h4 {
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+
+.experiencia-texto p {
+    font-size: 1.4rem;
+    color: #9e9e9e;
+}
+
+.section-educacion {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    border: .1rem solid #DDD;
+}
+
+.educacion-titulo {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.educacion-info {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.educacion-img img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    object-position: center;
+    padding: .5rem;
+}
+
+.educacion-info h2 {
+    font-size: 2rem;
+}
+
+.educacion-info h5 {
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+
+.educacion-info p {
+    font-size: 1.1rem;
+    color: #747474d7
 }
 
