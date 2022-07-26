@@ -169,7 +169,7 @@ button {
 
 .acercaDe-titulo {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .acercaDe-info {
@@ -186,7 +186,7 @@ button {
 
 .experiencia-titulo {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .experiencia-info {
@@ -225,12 +225,12 @@ button {
 
 .educacion-titulo {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .educacion-info {
     display: flex;
-    margin-top: 2rem;
+    margin: 2rem 0 2rem;
 }
 
 .educacion-img img {
@@ -279,8 +279,19 @@ button {
 }
 
 .circulo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     max-width: 150px;
     margin: 0;
+}
+
+.circulo h2 {
+    position: absolute;
+    text-align: center;
+    font-size: 2rem;
 }
 
 .circulo svg {
@@ -316,9 +327,10 @@ button {
     stroke-dashoffset: calc(440 - (440 * 70) / 100);
 }
 
-.circulo h3 {
+.circulo h4 {
+    font-size: 1.6rem;
     position: absolute;
-    left: 0;
+    bottom: -2.4rem;
 }
 
 .section-proyectos {
